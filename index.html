@@ -38,7 +38,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Mahdi Gilany</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="", style="max-height: 150%">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,10 +59,10 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a class="nav-link js-scroll-trigger" href="#honors">Honors</a>
         </li>
       </ul>
     </div>
@@ -83,10 +83,20 @@
                   220 John Street · Rochester, NY · +1(585)214-9152 ·<br />
                   <a href="mailto:mg6612@g.rit.edu">mg6612@g.rit.edu</a>
               </div>
-              <p class="lead mb-5">I am a first year Ph.D. student in Computing and Information Science at the Golisano College of Computing and Information Sciences, Rochester Institute of Technology (RIT) . I am a Graduate Research Assistant under the supervision of Prof. Rui Li.</p>
+              <p class="lead mb-5">
+                  I am a second year Ph.D. candidate at <a href="https://www.rit.edu/computing/">B. Thomas Golisano College of Computing and Information Sciences</a> of <a href="https://www.rit.edu/">Rochester Institute of Technology (RIT)</a>.
+                  I am currently working as a Graduate Research Assistant under the supervision of <a href="https://www.rit.edu/directory/rxlics-rui-li">Dr. Rui Li</a>.
+                  Prior to Ph.D, I graduated in Electrical Engineeirng from the <a href="https://ece.ut.ac.ir/en">School of Electrical and Computer Engineering</a> at <a href="https://ut.ac.ir/en">University of Tehran</a>, and
+                  I had the chance of being advised by <a href="https://ece.ut.ac.ir/en/~akhaee"> Dr. Mohammad Ali Akhaee</a>.
+              </p>
+              <p class="lead mb-5">
+                  Generally, I am interested in <b>Continual Learning</b> and developing different methods which allow deep neural networks to acquire and accumulate various knowledge
+                  and generalize those knowledge to the other tasks by finding more abstract representations. Currently, I am working on <b>dynamically inferring neural netwok's architecture</b> given the data using generative models and variational inference methods.
+                  This dynamicity allows the capacity of network to grow when a new knowledge is learned and dynamically adapt to any changes in data distribution.
+              </p>
               <div class="social-icons">
-                  <a href="mailto:mg6612@g.rit.edu">
-                      <i class="fas fa-envelope"></i>
+                  <a href="https://join.skype.com/invite/CCbnHIB3MxgM">
+                      <i class="fab fa-skype"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/mohammadmahdigilani">
                       <i class="fab fa-linkedin-in"></i>
@@ -103,61 +113,74 @@
               </div>
           </div>
       </section>
-      <!--
-        <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
           <div class="w-100">
-            <h2 class="mb-5">Experience</h2>
+              <h2 class="mb-5">Experience</h2>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                <h3 class="mb-0">Senior Web Developer</h3>
-                <div class="subheading mb-3">Intelitec Solutions</div>
-                <p>Bring to the table win-win survival strategies to ensure proactive domiation. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="resume-content">
+                      <h3 class="mb-0">Research Assistant</h3>
+                      <div class="subheading mb-3">PhD research, <a href="https://ruililuci.com//">Lab of Use-nspired Computational Intelligence</a> </div>
+                      <p>
+                          – <b>Neural Architecture Inference using Beta-Bernoulli Processes:</b> Inferring the posterior distribution over
+                          architectural hyper-parameters (number of layers and neurons) using stochastic variational inference methods.
+                      </p>
+                      <p>
+                          – <b>Variational Continual Learning with a dynamic network:</b> Dynamically growing a neural network
+                          architecture in VCL setting to overcome neural capacity problem.
+                      </p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">Fall 2019–Present</span>
+                  </div>
               </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">March 2013 - Present</span>
-              </div>
-            </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                <h3 class="mb-0">Web Developer</h3>
-                <div class="subheading mb-3">Intelitec Solutions</div>
-                <p>Capitalize on low hanging fruit to identify a ballark vale added activity to beta tet. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="resume-content">
+                      <h3 class="mb-0">Research Assistant</h3>
+                      <div class="subheading mb-3">Undergraduate Thesis, <a href="http://scl.ut.ac.ir/?page_id=50&lang=en">Secure Communication Lab</a></div>
+                      <p>
+                          – <b>Hand Gesture Detection:</b> Developing a CNN for recognizing different hand gestures by Keras and extracted
+                          skin pixels as features
+                      </p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">Spring and Summer 2018</span>
+                  </div>
               </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">December 2011 - March 2013</span>
-              </div>
-            </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                <h3 class="mb-0">Junior Web Designer</h3>
-                <div class="subheading mb-3">Shout! Media Productions</div>
-                <p>Podcasting opinal change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div class="resume-content">
+                      <h3 class="mb-0">Research Scientist</h3>
+                      <div class="subheading mb-3">Habibi Crypto-currency Trading Group</div>
+                      <p>
+                          – <b>Crypto-currency Price Forcasting:</b> Predicting different crypto-coins’ prices using time series analysis and
+                          RNNs.
+                      </p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">Fall 2018–Spring 2019</span>
+                  </div>
               </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">July 2010 - December 2011</span>
-              </div>
-            </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-              <div class="resume-content">
-                <h3 class="mb-0">Web Design Intern</h3>
-                <div class="subheading mb-3">Shout! Media Productions</div>
-                <p>Collabortvely administrate empowered markets via plg-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+              <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                  <div class="resume-content">
+                      <h3 class="mb-0">Electrical Engineering Intern</h3>
+                      <div class="subheading mb-3">Mataab Company</div>
+                      <p>– <b>Wind Speedometer:</b> Designing a wind speedometer by ultrasonic transceiver sensors and microcontrollers.</p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                      <span class="text-primary">Spring and Summer 2016</span>
+                  </div>
               </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">September 2008 - June 2010</span>
-              </div>
-            </div>
 
           </div>
 
-        </section>
-    -->
+      </section>
+
       <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
@@ -166,23 +189,25 @@
 
               <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div class="resume-content">
-                      <h3 class="mb-0">Rochester Institute of Technology</h3>
-                      <div class="subheading mb-3">Doctor of Philosophy (PhD)</div>
-                      <div>Computer Science</div>
+                      <h3 class="mb-0">Rochester Institute of Technology (RIT)</h3>
+                      <div class="subheading mb-3">Ph.D. in Computer Science</div>
+                      <div>
+                          GPA:4.0/4.0, Advisor: <a href="https://www.rit.edu/directory/rxlics-rui-li">Dr. Rui Li</a>
+                      </div>
                   </div>
                   <div class="resume-date text-md-right">
-                      <span class="text-primary">August 2019 - Present</span>
+                      <span class="text-primary">Fall 2019–Present</span>
                   </div>
               </div>
 
               <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
                   <div class="resume-content">
                       <h3 class="mb-0">University of Tehran</h3>
-                      <div class="subheading mb-3">Electrical Engineering: Communication</div>
-                      <p>GPA: 17.32/20</p>
+                      <div class="subheading mb-3">B.Sc. in Electrical Engineering (Communication)</div>
+                      <p>GPA: 3.73/4.00 (17.32/20.0), Advisor: <a href="https://ece.ut.ac.ir/en/~akhaee">Dr. Mohammad Ali Akhaee</a></p>
                   </div>
                   <div class="resume-date text-md-right">
-                      <span class="text-primary">September 2014 - September 2018</span>
+                      <span class="text-primary">2014–2018</span>
                   </div>
               </div>
 
@@ -193,123 +218,173 @@
                       <p>GPA: 19.87/20</p>
                   </div>
                   <div class="resume-date text-md-right">
-                      <span class="text-primary">September 2010 - September 2014</span>
+                      <span class="text-primary">2010–2014</span>
                   </div>
               </div>
 
           </div>
       </section>
-      <!--
-        <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
           <div class="w-100">
-            <h2 class="mb-5">Skills</h2>
+              <h2 class="mb-5">Skills</h2>
 
-            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-            <ul class="list-inline dev-icons">
-              <li class="list-inline-item">
-                <i class="fab fa-html5"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-css3-alt"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-js-square"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-angular"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-react"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-node-js"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-sass"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-python"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-wordpress"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-gulp"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-grunt"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-npm"></i>
-              </li>
-            </ul>
+              <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+              <ul class="fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa  fa-battery-full"></i>
+                      Python, MATLAB, C/C++
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-battery-half"></i>
+                      Java, R
+                  </li>
+                  <li>
+                      <i class="fa-li fa  fa-battery-three-quarters"></i>
+                      LaTeX
+                  </li>
+                  <li>
+                      <i class="fa-li fa  fa-battery-quarter"></i>
+                      Verilog, VHDL
+                  </li>
 
-            <div class="subheading mb-3">Workflow</div>
-            <ul class="fa-ul mb-0">
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Mobile-First, Responsive Design</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Cross Browser Testing &amp; Debugging</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Cross Functional Teams</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Agile Development &amp; Scrum</li>
-            </ul>
+                  <!--<ul class="list-inline dev-icons">
+
+                             <li class="list-inline-item">
+                                 <i class="fab fa-java"></i>
+                             </li>
+                             <li class="list-inline-item">
+                                 <i class="fab fa-python"></i>
+                             </li>
+                -->
+
+              </ul>
+
+              <div class="subheading mb-3">Deep Learning Frameworks</div>
+              <ul class="fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa fa-thermometer-full"></i>
+                      Pytorch, Keras
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-thermometer-three-quarters"></i>
+                      Tensorflow
+                  </li>
+              </ul>
+
+              <div class="subheading mb-3">Data Science Libraries/Packages</div>
+              <ul class="fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa fa-check"></i>
+                      NumPy,
+                      Pandas, SciPy, Scikit-learn, Matplotlib,
+                      IPython, GPyTorch
+                  </li>
+              </ul>
           </div>
-        </section>
+      </section>
 
-        <hr class="m-0">
+      <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
           <div class="w-100">
-            <h2 class="mb-5">Interests</h2>
-            <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-            <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+              <h2 class="mb-5"> Selected Projects</h2>
+              <ul class="fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing <b>Bayesian neural networks</b> for both classification and regression using PyTorch.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing a <b>Convolutional neural network with various regularization techniques, e.g. Dropout and
+                      L2-norm</b>, for MNIST and FashionMNIST Classification using PyTorch.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing <b>Gradient Descent, Newton, and Quasi-Newton optimizers</b> using backtracking linesearch with
+                      MATLAB.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing dimentionality reduction algorithms such as <b>Neural Autoencoder, PCA, LDA, and Forward
+                      Feature construction</b> using PyTorch and Numpy.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing <b>Expectation-Maximization (EM)</b> algorithm for Gaussian Mixture Model using Numpy.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing various clustering algorithms such as <b>Agglomerative Hierarchical and k-means</b> using NumPy.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing various classifiers such as <b>SVM, KNN, and Linear with Basis Expansion</b> using NumPy.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing various pdf estimators such as <b>K-means, Parzen Window, and Histogram</b> using NumPy.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      <b>Multi-thread programming</b> for displaying Mandelbrot function with manual load balancing.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Running a 3D Random Walk in multi-processing setting using <b>Master-Worker with Massage Passing Interface(MPI)</b>.
+</li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Designing and Implementing an hand-held remote controller with a screen for Persian Ghazal solar car using DRF
+                      wireless transceiver modules.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      Implementing a multi-functional module for text sending and receiving via sim card, GPS location finding, and server
+                      communication using microcontrollers and Sim808 module.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      FPGA implementation of a digital oscilloscope and a signal generator.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-cog"></i>
+                      FPGA implementation of analog signals’ envelope detector using FIR/IIR filters and MATLAB Simulink.
+                  </li>
+
+              </ul>
           </div>
-        </section>
+      </section>
 
-        <hr class="m-0">
+      <hr class="m-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="honors">
           <div class="w-100">
-            <h2 class="mb-5">Awards &amp; Certifications</h2>
-            <ul class="fa-ul mb-0">
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                Google Analytics Certified Developer</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                Mobile Web Specialist - Google Certification</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                1<sup>st</sup>
-                Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                1<sup>st</sup>
-                Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                2<sup>nd</sup>
-                Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                1<sup>st</sup>
-                Place - James Buchanan High School - Hackathon 2006</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-                3<sup>rd</sup>
-                Place - James Buchanan High School - Hackathon 2005</li>
-            </ul>
+              <h2 class="mb-5"> Honors &amp; Awards</h2>
+              <ul class="fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa fa-trophy text-warning"></i>
+                      RIT Ph.D. Merit Full Scholarship, 2019-present.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-trophy text-warning"></i>
+                      Exempted from M.Sc. entrance exam in University of Tehran as an exceptional talented student, 2017.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-trophy text-warning"></i>
+                      Ranked among top 0.1% in Iran’s National University Entrance Exam with more than 220,000 participants, 2013.
+                  </li>
+                  <li>
+                      <i class="fa-li fa fa-trophy text-warning"></i>
+                      Semi-finalist in both 26<sup>th</sup> Iranain National Mathematics and Physics Olympiads, 2013.
+                  </li>
+
+              </ul>
           </div>
-        </section>
-    -->
+      </section>
+
   </div> 
       
   <!-- Bootstrap core JavaScript -->
