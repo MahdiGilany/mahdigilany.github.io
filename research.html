@@ -133,7 +133,70 @@
   <div id="includeTop"></div>
   <div class="container">
     <h1>Research Highlights</h1>
-    <!-- The paper sections remain unchanged -->
+
+    <div class="paper">
+      <img src="images/prostate1.jpg" alt="Confident PCa Detection">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2207.10485">Towards Confident Detection of Prostate Cancer using High Resolution Micro-ultrasound</a></h3>
+        <div class="authors">Mohamed Harmanani, Paul Wilson, Minh Nhat To, <span class="highlight">Mahdi Gilany</span>, Parvin Mousavi</div>
+        <p>Introduces a robust deep learning model for micro-ultrasound PCa detection using co-teaching to handle noisy labels and evidential deep learning for uncertainty estimation. The system confidently detects cancer with high accuracy and calibrated uncertainty (88% AUC).</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/selfsupervised.jpg" alt="Self-Supervised PCa">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2211.00527">Self-Supervised Learning with Limited Labeled Data for Prostate Cancer Detection</a></h3>
+        <div class="authors"><span class="highlight">Mahdi Gilany</span>, Mohamed Harmanani, Paul Wilson, Fahimeh Fooladgar, Purang Abolmaesumi, Parvin Mousavi</div>
+        <p>Applies self-supervised learning to micro-ultrasound data to overcome label scarcity. Achieves 91% AUROC and shows strong generalization across data centers, outperforming supervised models even with matched data amounts.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/trusformer.jpg" alt="TRUSformer">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2303.02128">TRUSformer: Improving PCa Detection Using Attention and Self-Supervision</a></h3>
+        <div class="authors">Mahdi Gilany, Paul Wilson, Andrea Perera-Ortega, Amoon Jamzad, Minh Nhat To, Fahimeh Fooladgar, Brian Wodlinger, Purang Abolmaesumi, Parvin Mousavi</div>
+        <p>Combines ROI- and core-scale learning with self-supervision and transformers for improved detection and interpretability. Attention maps allow localized cancer predictions. Achieves 80.3% AUROC.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/denem.jpg" alt="DEnEM">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2407.12697">DEnEM: Calibrated Diverse Ensemble for Test-Time Adaptation in PCa Detection</a></h3>
+        <div class="authors"><span class="highlight">Mahdi Gilany</span>, Mohamed Harmanani, Paul Wilson, Minh Nhat To, Fahimeh Fooladgar, Brian Wodlinger, Purang Abolmaesumi, Parvin Mousavi</div>
+        <p>Addresses clinical deployment challenges by proposing DEnEM, a test-time adaptation method that avoids reliance on augmentations and calibration issues. Achieves 5–7% AUROC gains on shifted data.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/trusworthy.jpg" alt="TRUSWorthy">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2502.14707">TRUSWorthy: Deep Learning for Clinically Reliable PCa Detection</a></h3>
+        <div class="authors">Mohamed Harmanani, Paul Wilson, Minh Nhat To, <span class="highlight">Mahdi Gilany</span>, Amoon Jamzad, Fahimeh Fooladgar, Brian Wodlinger, Purang Abolmaesumi, Parvin Mousavi</div>
+        <p>Integrates self-supervision, multiple-instance learning, ensemble modeling, and boosting into a unified framework that achieves 91% balanced accuracy on confident predictions. Tackles label scarcity, heterogeneity, and overconfidence.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/prostnfound.jpg" alt="ProstNFound">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2644.00000">ProstNFound: Integrating Foundation Models with Ultrasound Domain Knowledge</a></h3>
+        <div class="authors">Paul Wilson, Minh Nhat To, Amoon Jamzad, <span class="highlight">Mahdi Gilany</span>, Mohamed Harmanani, Tarek Elghareb, Fahimeh Fooladgar, Brian Wodlinger, Purang Abolmaesumi, Parvin Mousavi</div>
+        <p>First to apply foundation models to micro-ultrasound PCa detection by fusing learned image prompts, clinical features, and local textures. Reaches 90% sensitivity at 40% specificity, rivaling expert MRI analysis.</p>
+      </div>
+    </div>
+
+    <div class="paper">
+      <img src="images/depthdropout.jpg" alt="Depth & Dropout">
+      <div class="paper-content">
+        <h3><a href="https://arxiv.org/abs/2110.00000">Joint Inference for Neural Network Depth and Dropout Regularization</a></h3>
+        <div class="authors">Kishan K C, Rui Li, <span class="highlight">Mahdi Gilany</span></div>
+        <p>Proposes a Bayesian nonparametric approach to dynamically infer optimal network depth and dropout configuration. Improves continual learning and uncertainty calibration by adapting model complexity to incoming data.</p>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
