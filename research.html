@@ -49,11 +49,17 @@
     }
 
     .paper img {
-      width: 160px;
-      height: auto;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
+        width: 160px;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out; /* smooth scaling */
+      }
+      
+      .paper img:hover {
+        transform: scale(1.2); /* grow image 20% on hover */
+        z-index: 1;
+      }
 
     .paper h3 {
       margin: 0 0 10px;
